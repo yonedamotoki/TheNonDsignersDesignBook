@@ -1,0 +1,131 @@
+h1 { 
+    font-family: "Bodoni"; 
+    font-size: 100px; 
+    text-align: center;
+}
+
+span{
+    display: block;
+}
+
+.main{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    border: solid 0.5px #545454;
+    height: 350px;
+    width: 450px;
+}
+
+.comment{
+    font-size: 8px;
+    position: absolute;
+    width: 100px;
+}
+
+.comment_o{
+    top: 95px;
+    left: 40px;
+}
+
+.comment_d{
+    top: 74px;
+    left: 156px;
+}
+
+.comment_s{
+    top: 235px;
+    left: 219px;
+}
+
+.comment_bracketing{
+    top: 94px;
+    left: 207px;
+}
+
+.comment_l{
+    top: 88px;
+    left: 329px;
+}
+
+.line{
+    border-left: solid 0.5px #545454;    
+    position: absolute;
+}
+
+.stress_o{
+    height: 89px;
+    top: 111px;
+    left: 73px;
+    transform: rotate(-14deg);
+}
+
+.stress_d{
+    height: 57px;
+    top: 140px;
+    left: 164px;
+    transform: rotate(-23deg);
+}
+
+.line_d{
+    height: 25px;
+    top: 90px;
+    left: 169px;
+}
+
+.line_s{
+    height: 55px;
+    top: 178px;
+    left: 224px;
+}
+
+.line_l{
+    height: 30px;
+    top: 103px;
+    left: 312px;
+    transform: rotate(67deg);
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    border: solid 0.5px #545454; 
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle_d{
+    top: 115px;
+    left: 161px;
+}
+
+.bent{
+    border-left: solid 0.5px #545454; 
+    border-bottom: solid 0.5px #545454;    
+    position: absolute;
+}
+
+.bent_s{
+    height: 30px;
+    width: 12px;
+    top: 188px;
+    left: 211px;
+}
+
+.bent_bracketing{
+    height: 20px;
+    width: 30px;
+    top: 119px;
+    left: 270px;
+    transform: rotate(-23deg);
+}
+
+.bent_arrow{
+    height: 10px;
+    width: 10px;
+    top: 129px;
+    left: 292px;
+    transform: rotate(203deg);
+}

@@ -1,0 +1,29 @@
+p{
+    margin: 6px;
+    color: #7e6b02;
+}
+
+.container{
+    height: 209px;
+    width: 345px;
+    background-color: rgb(251, 255, 196);
+    padding: 8px;
+}
+
+.underline{
+    border-bottom: solid 1px #7e6b02
+}
+
+.underlineBold{
+    border-bottom: solid 4px #7e6b02
+}
+
+.italic{
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+    font-style: italic;
+}
+
+.title{
+    font-size: 48px;
+    font-family: AnodyneW01-Combined;
+}

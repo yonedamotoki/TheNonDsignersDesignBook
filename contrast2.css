@@ -1,0 +1,41 @@
+p{
+    margin: 6px;
+}
+
+span{
+    display: block;
+}
+.container{
+    height: 209px;
+    width: 345px;
+    background-color: rgb(251, 255, 196);
+    padding: 8px;
+}
+
+.underline{
+    border-bottom: solid 1px #024a02;
+}
+
+.underlineBold{
+    border-bottom: solid 4px #024a02;
+}
+
+.italic{
+    font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; 
+    font-style: italic;
+}
+
+.title{
+    font-family: Aachen;
+    font-size: 24px;
+    background-color: #024a02;
+    color: rgb(251, 255, 196);
+}
+
+.padding_8_0{
+    padding: 8px 0;
+}
+
+.green{
+    color: #024a02;
+}

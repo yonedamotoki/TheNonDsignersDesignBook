@@ -1,0 +1,19 @@
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+p {
+    color: purple;
+    margin: 8px;
+}
+
+.container {
+    height: 209px;
+    width: 345px;
+    background-color: rgb(233, 230, 230);
+}
+
+.right{
+    text-align: right;
+}

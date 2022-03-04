@@ -1,0 +1,28 @@
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.dashed {
+    background-image :
+      linear-gradient(to right, #000, #000 3px, transparent 3px, transparent 8px),  /* 上の線 */
+      linear-gradient(to bottom, #000, #000 3px, transparent 3px, transparent 8px), /* 右の線 */
+      linear-gradient(to left, #000, #000 3px, transparent 3px, transparent 8px),  /* 下の線 */
+      linear-gradient(to top, #000, #000 3px, transparent 3px, transparent 8px);   /* 左の線 */
+    background-size:
+      24px 2px,  /* 上の線 */
+      2px 24px, /* 右の線 */
+      24px 2px,  /* 下の線 */
+      2px 24px;   /* 左の線 */
+    background-position:
+      left top,  /* 上の線 */
+      right top, /* 右の線 */
+      right bottom,  /* 下の線 */
+      left bottom;   /* 左の線 */
+    background-repeat:
+      repeat-x,  /* 上の線 */
+      repeat-y, /* 右の線 */
+      repeat-x,  /* 下の線 */
+      repeat-y;   /* 左の線 */
+}

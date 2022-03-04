@@ -1,0 +1,31 @@
+p{
+    font-family: "EB Garamond";
+    margin: 6px;
+}
+
+span{
+    display: block;
+}
+
+.container{
+    height: 209px;
+    width: 345px;
+    background-color: rgb(251, 255, 196);
+    padding: 8px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.underline{
+    border-bottom: solid 1px black
+}
+
+.underlineBold{
+    border-bottom: solid 2px black
+}
+
+.italic{
+    font-style: italic;
+}
